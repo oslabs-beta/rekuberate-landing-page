@@ -8,7 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack-dev-server --mode development --open --hot",
     "build": "webpack --mode production",
-    "start": "nodemon ./Server/index.js"
+    "start": "NODE_ENV=production nodemon ./Server/index.js"
   },
   "keywords": [],
   "author": "",

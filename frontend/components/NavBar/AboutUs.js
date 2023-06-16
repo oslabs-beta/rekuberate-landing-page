@@ -1,40 +1,68 @@
 import React from "react";
 import "../CSS/about.css";
 import linkedin from "./pictures/linkedin2.png";
-
+import githubLogo from "./pictures/githubLogo.png"
 export default function About() {
   return (
     <>
       <div className="gridsystem">
         <div className="box">
           Kai Farrell
-          <a href="https://www.linkedin.com/in/kaifarrell/">
+          <div className="links">
+            <a href="https://www.linkedin.com/in/kaifarrell/">
             <img src={linkedin} className="linkedin-logo"></img>
           </a>
+            <a href="https://github.com/farrellkai">
+            <img src={githubLogo} className="githubLogo"></img>
+              </a>
+          </div>
         </div>
         <div className="box">
           Hunter Shaw
-          <a href="https://www.linkedin.com/in/hunter-shaw-39430a181/">
+          <div className="links">
+            <a href="https://www.linkedin.com/in/hunter-shaw-39430a181/">
             <img src={linkedin} className="linkedin-logo"></img>
           </a>
+          <a href="https://github.com/HShaw215">
+            <img src={githubLogo} className="githubLogo"></img>
+          </a>
+          </div>
+          
         </div>
         <div className="box">
           Thad White
+          <div className="links">
           <a href="https://www.linkedin.com/in/thad-white/">
             <img src={linkedin} className="linkedin-logo"></img>
-          </a>
+            </a>
+            <a href="https://github.com/thadd225">
+            <img src={githubLogo} className="githubLogo"></img>
+            </a>
+          </div>
         </div>
         <div className="box">
           Fabrizzio Quintanilla
-          <a href="https://www.linkedin.com/in/fabrizzio-quintanilla-b58388244/">
+          <div className="links">
+            <a href="https://www.linkedin.com/in/fabrizzio-quintanilla-b58388244/">
             <img src={linkedin} className="linkedin-logo"></img>
-          </a>
+            </a>
+            <a href="https://github.com/Fab3005">
+            <img src={githubLogo} className="githubLogo"></img>
+            </a>
+          </div>
+         
         </div>
         <div className="box">
           Kevin Fan
-          <a href="https://www.linkedin.com/in/kfan1/">
+          <div className="links">
+            <a href="https://www.linkedin.com/in/kfan1/">
             <img src={linkedin} className="linkedin-logo"></img>
           </a>
+          <a href="https://github.com/kfan1">
+          <img src={githubLogo} className="linkedin-logo"></img>
+          </a>
+          </div>
+          
         </div>
       </div>
     </>

@@ -18,7 +18,12 @@
     margin: auto;
     color: white;
 }
-.linkedin-logo {
+.linkedin-logo, .githubLogo {
     margin-top: 1vh;
     height: 5vh;
+}
+
+.links {
+    display: flex;
+    gap: 10px;
 }

@@ -104,3 +104,36 @@ h1 {
   display: flex;
   justify-content: center;
 }
+
+.download {
+  color: white;
+  background-color: #89d6c5;
+  font-size: 3vmin;
+  height: 10vmin;
+  width: 40vmin;
+  border: 2px;
+  border-style: solid;
+  border-color: #4ba491;;
+  border-radius: 20px;
+  box-shadow: 1px 1px 1px 1px #4ba491;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-bottom: 5vh;
+  margin-top: -5vh;
+}
+
+.download:hover {
+  background-color: #01a07e;
+  border:  #037058;
+  transition-duration: 300ms;
+  box-shadow: 1px 1px 1px 4px #037058;
+}
+
+.download:active {
+  top: 5px;
+  left: 5px;
+  box-shadow: none;
+}
+

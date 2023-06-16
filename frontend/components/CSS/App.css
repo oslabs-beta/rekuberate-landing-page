@@ -32,7 +32,6 @@ h1 {
   color: white;
   font-family: Inter, sans-serif;
   margin-bottom: 10vh;
-  
 }
 .key-features {
   position: absolute;
@@ -44,7 +43,6 @@ h1 {
 .key-features h1 {
   margin-left: 5vw;
   margin-right: 5vw;
-
 }
 
 .first-comp {
@@ -66,8 +64,7 @@ h1 {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
   grid-gap: 15vw;
-  margin:10vw;
-  
+  margin: 10vw;
 }
 .Pods-description {
   font-size: 3vmin;
@@ -91,12 +88,12 @@ h1 {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
   grid-gap: 15vw;
-  margin:10vw;
+  margin: 10vw;
 }
 .metrics-description {
   font-size: 3vmin;
   height: 40vmin;
-  width: 50vmin; 
+  width: 50vmin;
   border: 2px;
   border-style: solid;
   border-color: black;

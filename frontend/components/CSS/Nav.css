@@ -33,10 +33,18 @@ a {
   height: 1em;
   padding: 5px;
 }
+
 .nav-logo {
   height: 4vmax;
   margin-left: 2vw;
+  transition: 2s;
 }
+
+.nav-logo:hover {
+  cursor: pointer;
+  transform: rotate(359deg);
+}
+
 button {
   padding: 0;
   border: none;
@@ -45,4 +53,9 @@ button {
   font-size: 17px;
   font-weight: 550;
   height: 1em;
+}
+
+.nav_links:hover {
+  cursor: pointer;
+  color: gray;
 }

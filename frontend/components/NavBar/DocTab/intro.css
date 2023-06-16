@@ -1,0 +1,15 @@
+.test {
+  margin: 0;
+  margin-top: 4vh;
+}
+p {
+  text-align: center;
+  font-family: Inter, sans-serif;
+  color: white;
+  font-size: 20px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+html {
+  scroll-behavior: smooth;
+}

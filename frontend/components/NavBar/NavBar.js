@@ -15,15 +15,15 @@ export default function NavBar() {
           </button>
         </div>
         <div className="nav_actions">
-          <button onClick={() => navigate('/docs')}> Docs </button>
-          <button onClick={() => navigate('/about')}> About Us </button>
+          <button className="nav_links" onClick={() => navigate('/docs')}> Docs </button>
+          <button className="nav_links" onClick={() => navigate('/about')}> About Us </button>
           <a
-            class="nav_link"
+            class="nav_link nav_links"
             href="https://medium.com/the-programmer/kubernetes-fundamentals-for-absolute-beginners-architecture-components-1f7cda8ea536"
           >
             Blog
           </a>
-          <a class="nav_link" href="https://github.com/oslabs-beta/ReKuberate">
+          <a class="nav_link nav_links" href="https://github.com/oslabs-beta/ReKuberate">
             Github
           </a>
         </div>

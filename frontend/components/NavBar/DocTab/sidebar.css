@@ -15,5 +15,14 @@
 
 .sidebar a {
   color: white;
-  padding: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.sidebar a:hover {
+  color: rgb(0, 0, 0);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 24px;
 }

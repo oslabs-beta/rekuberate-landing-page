@@ -1,9 +1,10 @@
 import React from 'react';
 import wheel from './pictures/wheel.svg';
-import kub from './pictures/kubernetes.svg';
+import metrics from './pictures/metrics.png';
 import '../CSS/App.css';
 import AnyChart from 'anychart-react';
 import anychart from 'anychart';
+import Footer from './Footer';
 
 export default function HomePage() {
   const chartData = {
@@ -248,7 +249,7 @@ export default function HomePage() {
     <>
       <header className='App-header'>
         <img src={wheel} className='App-logo' alt='logo' />
-        <h1>Introducing ReKuberate 1.0</h1>
+        <h1 style={{ color: 'white' }}>Introducing ReKuberate 1.0</h1>
         <button
           className='download'
           onClick={() => {
@@ -259,26 +260,22 @@ export default function HomePage() {
       </header>
       <div className='key-features'>
         <h1 className='first-comp'>Presenting ReKuberate's Powerful Kubernetes Pod's Visualizer and Metrics Display</h1>
-        <div className='Pods-demo'>
+        <div>
           <div className='Pods-description'>
             An aesthetic GUI that allows the user to interact with their cluster and view their cluster health
             real-time. Color variations allow the user to see current pods that active, pending or down
           </div>
-          <div>
-            <AnyChart instance={chart} />
-          </div>
+          <AnyChart instance={chart} />
         </div>
-        <div className='metrics'>
-          <div>
-            <img src={kub} className='demo' />
-          </div>
-          <div className='metrics-description'>
+        <div>
+          <img src={metrics} className='metrics' />
+          <div className='Pods-description'>
             Utilizing the power of Grafana to display real-time graphs, illustrating the local health metrics of your
             operating system while also tracking analytically the operating pods and containers
           </div>
         </div>
       </div>
-      <div className='techStack'></div>
+      <Footer />
     </>
   );
 }

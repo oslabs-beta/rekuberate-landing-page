@@ -15,6 +15,7 @@ const WebPage = () => {
         <Route path='/docs' element={<DocPage />} />
         <Route path='/about' element={<About />} />
       </Routes>
+
     </>
   );
 };

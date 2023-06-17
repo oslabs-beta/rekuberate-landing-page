@@ -1,29 +1,28 @@
 .gridsystem {
-    margin-top: 50vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    max-width: 100%;
-    color: rgb(0, 0, 0);
-    font-size: 5vh;
+  margin-top: 50vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  max-width: 100%;
+  font-size: 30px;
 }
-.box  {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border: 20px;
-    height: 20vh;
-    width: 10vw;
-    margin: auto;
-    color: rgb(0, 0, 0);
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 20px;
+  height: 20vh;
+  width: 10vw;
+  margin: auto;
 }
-.linkedin-logo, .githubLogo {
-    margin-top: 1vh;
-    height: 5vh;
+.linkedin-logo,
+.githubLogo {
+  margin-top: 1vh;
+  height: 5vh;
 }
 
 .links {
-    display: flex;
-    gap: 10px;
+  display: flex;
+  gap: 10px;
 }

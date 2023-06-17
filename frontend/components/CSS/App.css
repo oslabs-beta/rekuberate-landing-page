@@ -2,8 +2,8 @@ body {
   text-align: center;
   overflow-x: hidden;
   margin: 0;
-  background-color: rgb(255, 254, 238);
-  color: rgb(0, 0, 0);
+  background-color: rgb(0, 0, 0);
+  color: white;
   transition: 2s;
 }
 

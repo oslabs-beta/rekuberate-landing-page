@@ -12,3 +12,7 @@ p {
 html {
   scroll-behavior: smooth;
 }
+
+#about {
+  padding-bottom: 50px;
+}

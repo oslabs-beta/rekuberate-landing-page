@@ -51,7 +51,7 @@ export default function NavBar() {
             onClick={() => {
               colorTheme === 'dark' ? setColorTheme('light') : setColorTheme('dark');
             }}>
-            <i class='fa-solid fa-moon'></i>
+            <i className='fa-solid fa-moon'></i>
           </button>
         </div>
       </nav>

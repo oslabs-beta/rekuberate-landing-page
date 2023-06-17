@@ -13,7 +13,7 @@ export default function About() {
             <img src={linkedin} className="linkedin-logo"></img>
           </a>
             <a href="https://github.com/farrellkai">
-            <i class="fa-brands fa-github"></i>
+            <i classClass="fa-brands fa-github"></i>
               </a>
           </div>
         </div>
@@ -24,7 +24,7 @@ export default function About() {
             <img src={linkedin} className="linkedin-logo"></img>
           </a>
           <a href="https://github.com/HShaw215">
-          <i class="fa-brands fa-github"></i>
+          <i classClass="fa-brands fa-github"></i>
           </a>
           </div>
           
@@ -36,7 +36,7 @@ export default function About() {
             <img src={linkedin} className="linkedin-logo"></img>
             </a>
             <a href="https://github.com/thadd225">
-            <i class="fa-brands fa-github"></i>
+            <i className="fa-brands fa-github"></i>
             </a>
           </div>
         </div>
@@ -47,7 +47,7 @@ export default function About() {
             <img src={linkedin} className="linkedin-logo"></img>
             </a>
             <a href="https://github.com/Fab3005">
-            <i class="fa-brands fa-github"></i>
+            <i className="fa-brands fa-github"></i>
             </a>
           </div>
          
@@ -59,7 +59,7 @@ export default function About() {
             <img src={linkedin} className="linkedin-logo"></img>
           </a>
           <a href="https://github.com/kfan1">
-          <i class="fa-brands fa-github"></i>
+          <i className="fa-brands fa-github"></i>
           </a>
           </div>
           

@@ -1,5 +1,6 @@
 .gridsystem {
-  margin-top: 50vh;
+  padding-top: 55vh;
+  padding-bottom: 25vh;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -13,11 +14,11 @@
   align-items: center;
   border: 20px;
   height: 20vh;
-  width: 10vw;
+  width: 15vw;
   margin: auto;
 }
-.linkedin-logo,
-.githubLogo {
+
+.linkedin-logo {
   margin-top: 1vh;
   height: 5vh;
 }
@@ -25,4 +26,15 @@
 .links {
   display: flex;
   gap: 10px;
+}
+
+.fa-github::before {
+  color: inherit;
+}
+
+.fa-github {
+  font-size: 56px;
+  padding-top: 5px;
+  color: rgb(70, 70, 70);
+  text-decoration: none;
 }

@@ -26,13 +26,6 @@
 a {
   text-decoration: none;
 }
-.nav_link {
-  color: black;
-  font-size: 17px;
-  font-weight: 550;
-  height: 1em;
-  padding: 5px;
-}
 
 .nav-logo {
   height: 4vmax;

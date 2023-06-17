@@ -10,9 +10,15 @@ export default function HomePage() {
       <div>
         <header className='App-header'>
           <img src={wheel} className='App-logo' alt='logo' />
+          <h1>Introducing ReKuberate 1.0</h1>
+          <button
+            className='download'
+            onClick={() => {
+              window.location.href = 'https://www.catfacts.co/';
+            }}>
+            Download
+          </button>
         </header>
-        <h1>Introducing ReKuberate 1.0</h1>
-        <button className='download' onClick={() => {window.location.href='https://www.catfacts.co/';}}>Download</button>
       </div>
       <div className='key-features'>
         <h1 className='first-comp'>Presenting ReKuberate's Powerful Kubernetes Pod's Visualizer and Metrics Display</h1>

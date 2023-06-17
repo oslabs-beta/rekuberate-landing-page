@@ -1,5 +1,6 @@
 body {
   text-align: center;
+  overflow-x: hidden;
 }
 .App-logo {
   height: 40vmin;
@@ -11,14 +12,18 @@ body {
   }
 }
 html {
-  background-color: #191414;
+  background-color: #ffffff;
 }
 .App-header {
   min-height: 70vmin;
+  margin: none;
+  padding-top: 10vh;
+  width: 100vw;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background-color: black;
 }
 @keyframes App-logo-spin {
   from {
@@ -35,7 +40,6 @@ h1 {
 }
 .key-features {
   position: absolute;
-  background-color: white;
   height: 200vh;
   left: 0;
   width: 100vw;
@@ -113,7 +117,7 @@ h1 {
   width: 40vmin;
   border: 2px;
   border-style: solid;
-  border-color: #4ba491;;
+  border-color: #4ba491;
   border-radius: 20px;
   box-shadow: 1px 1px 1px 1px #4ba491;
   display: flex;
@@ -126,9 +130,10 @@ h1 {
 
 .download:hover {
   background-color: #01a07e;
-  border:  #037058;
+  border: #037058;
   transition-duration: 300ms;
   box-shadow: 1px 1px 1px 4px #037058;
+  cursor: pointer;
 }
 
 .download:active {
@@ -136,4 +141,3 @@ h1 {
   left: 5px;
   box-shadow: none;
 }
-

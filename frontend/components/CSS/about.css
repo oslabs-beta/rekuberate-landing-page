@@ -1,6 +1,6 @@
 .gridsystem {
-  padding-top: 55vh;
-  padding-bottom: 25vh;
+  padding-top: 40vh;
+  padding-bottom: 40vh;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -37,4 +37,13 @@
   padding-top: 5px;
   color: rgb(70, 70, 70);
   text-decoration: none;
+}
+
+.headShot {
+  height: 13vw;
+  width: 13vw;
+  object-fit: cover;
+  object-position: 0 0;
+  margin: 20px;
+  border-radius: 50%;
 }

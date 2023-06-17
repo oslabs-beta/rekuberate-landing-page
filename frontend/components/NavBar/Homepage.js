@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import wheel from './pictures/wheel.svg';
 import metrics from './pictures/metrics.png';
 import '../CSS/App.css';
@@ -245,9 +245,20 @@ export default function HomePage() {
 
   chart.container('container');
 
+  const [MousePosition, setMousePosition] = useState({ left: 0, top: 0 });
+
+  function handleMouseMove(e) {
+    setMousePosition({ left: -e.pageX / 8, top: -e.pageY / 8 });
+  }
+
   return (
     <>
-      <header className='App-header'>
+      <header
+        className='App-header backgroundImg'
+        style={{ backgroundPositionX: MousePosition.left, backgroundPositionY: MousePosition.top }}
+        onMouseMove={(e) => {
+          handleMouseMove(e);
+        }}>
         <img src={wheel} className='App-logo' alt='logo' />
         <h1 style={{ color: 'white' }}>Introducing ReKuberate 1.0</h1>
         <button

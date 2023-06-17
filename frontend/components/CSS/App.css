@@ -127,3 +127,10 @@ h1 {
   left: 5px;
   box-shadow: none;
 }
+
+.backgroundImg {
+  background-image: url('https://image.ibb.co/czVo18/stars.png');
+  width: 100%;
+  overflow: hidden;
+  background-size: 2400px;
+}

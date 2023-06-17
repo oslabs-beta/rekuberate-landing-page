@@ -49,7 +49,7 @@ export default function NavBar() {
           <button
             className='nav_links'
             onClick={() => {
-              colorTheme === 'dark' ? setColorTheme('light') : setColorTheme('dark');
+              colorTheme === 'light' ? setColorTheme('dark') : setColorTheme('light');
             }}>
             <i className='fa-solid fa-sun'></i>
           </button>

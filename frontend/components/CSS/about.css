@@ -4,7 +4,7 @@
     flex-direction: row;
     justify-content: center;
     max-width: 100%;
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 5vh;
 }
 .box  {
@@ -16,7 +16,7 @@
     height: 20vh;
     width: 10vw;
     margin: auto;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 .linkedin-logo, .githubLogo {
     margin-top: 1vh;

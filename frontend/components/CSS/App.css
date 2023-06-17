@@ -1,6 +1,7 @@
 body {
   text-align: center;
   overflow-x: hidden;
+  margin: 0;
 }
 .App-logo {
   height: 40vmin;
@@ -16,7 +17,7 @@ html {
 }
 .App-header {
   min-height: 70vmin;
-  margin: none;
+  margin: 0;
   padding-top: 10vh;
   width: 100vw;
   display: flex;
@@ -66,14 +67,20 @@ h1 {
 
 .Pods-demo {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-  grid-gap: 15vw;
+  grid-template-columns: repeat(2, minmax(350px, 1fr));
+  grid-gap: 5vw;
   margin: 10vw;
 }
+
+@media screen and (max-width: 1200px) {
+  .Pods-demo {
+    grid-template-columns: repeat(1, minmax(350px, 1fr));
+  }
+}
+
 .Pods-description {
   font-size: 3vmin;
   height: 40vmin;
-  width: 60vmin;
   border: 2px;
   margin: auto;
   border-style: solid;
@@ -90,8 +97,8 @@ h1 {
 
 .metrics {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-  grid-gap: 15vw;
+  grid-template-columns: repeat(2, minmax(350px, 1fr));
+  grid-gap: 15w;
   margin: 10vw;
 }
 .metrics-description {
@@ -140,4 +147,8 @@ h1 {
   top: 5px;
   left: 5px;
   box-shadow: none;
+}
+
+#ac-chart-container {
+  height: 500px;
 }

@@ -48,5 +48,8 @@ module.exports = {
     proxy: {
       '/api/**': 'http://localhost:3001',
     },
-  }
+  },
+  resolve: {
+    extensions: ['.js', '.jsx', '.css']
+  },
 }

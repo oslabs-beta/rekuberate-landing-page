@@ -1,10 +1,10 @@
 import React from 'react';
 import './CSS/App.css';
 import { Routes, Route, Link } from 'react-router-dom';
-import HomePage from './NavBar/Homepage.js';
-import NavBar from './NavBar/NavBar';
-import DocPage from './NavBar/DocTab/Documents';
-import About from './NavBar/AboutUs';
+import HomePage from './NavBar/Homepage.jsx';
+import NavBar from './NavBar/NavBar.jsx';
+import DocPage from './NavBar/DocTab/Documents.jsx';
+import About from './NavBar/AboutUs.jsx';
 
 const WebPage = () => {
   return (

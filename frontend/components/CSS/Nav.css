@@ -45,10 +45,18 @@ button {
   color: black;
   font-size: 17px;
   font-weight: 550;
-  height: 1em;
+}
+
+.nav_links {
+  border: solid;
+  background-color: rgba(0, 255, 255, 0.1);
+  border-radius: 10px;
+  padding: 5px 20px;
+  transition: 0.2s;
 }
 
 .nav_links:hover {
   cursor: pointer;
-  color: gray;
+  color: rgb(255, 255, 255);
+  background-color: rgba(71, 212, 205, 0.9);
 }

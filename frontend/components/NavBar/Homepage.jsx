@@ -264,7 +264,7 @@ export default function HomePage() {
         <button
           className='download'
           onClick={() => {
-            window.location.href = 'https://github.com/oslabs-beta/ReKuberate/archive/refs/tags/v1.0.0.zip';
+            window.location.href = 'https://github.com/oslabs-beta/ReKuberate/archive/refs/tags/v1.0.1.zip';
           }}>
           Download
         </button>

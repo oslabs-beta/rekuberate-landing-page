@@ -34,7 +34,7 @@ export default function NavBar() {
             onClick={(e) => {
               e.preventDefault();
               window.location.href =
-                'https://medium.com/the-programmer/kubernetes-fundamentals-for-absolute-beginners-architecture-components-1f7cda8ea536';
+                'https://medium.com/@hu.shaw215/introducing-rekuberate-an-all-new-way-to-visualize-k8s-environments-and-metrics-778876004d82';
             }}>
             Blog
           </button>

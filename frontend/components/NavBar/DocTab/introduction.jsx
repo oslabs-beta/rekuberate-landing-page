@@ -9,13 +9,13 @@ export default function Intro() {
         <p>
           ReKuberate is a developer tool that allows you to seamlessly interact
           with your kubernetes clusters and nodes without the need to traverse
-          through the terminal. With our tool you can visualize your clusters'
-          health through our color-coded script that check if either your node
-          is running, pending, or failed. Along with our visualizer tool,
+          through the terminal. Cluster health is displayed in real time
+          using color coded statuses to show whether a node
+          is running, pending, or failed. Along with visualization,
           Rekuberate also offers robust analytical graphs powered by the
-          grafana/prometheus/helm stack that allows the user to interpret their
-          local OS health and data availability while also allowing the user get
-          real-time data on the overall health the cluster
+          grafana/prometheus/helm stack, allowing users to interpret their
+          local OS health and data availability while also providing
+          real-time data on the overall health of a cluster.
         </p>
       </div>
       <div id="install">
@@ -41,10 +41,11 @@ export default function Intro() {
         </p>
         <p>
           The displayed nodes are color-coded: red = error, yellow = pending,
-          green = running
+          green = running.
         </p>
-        <p>Hovering over each node will display additional details.</p>
         <p>
+          Hovering over each node will display additional details.
+        
           The metrics page displays selected data displayed in 
           graph form to give you a quick and easy overview of your cluster
           health and resource usage.

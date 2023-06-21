@@ -9,6 +9,10 @@
   font-size: 12px;
 }
 
+.footerLinks {
+  font-size: 16px;
+}
+
 @keyframes heartbeat {
   0% {
     font-size: 14px;

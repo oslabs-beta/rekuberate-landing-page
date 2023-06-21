@@ -270,19 +270,19 @@ export default function HomePage() {
         </button>
       </header>
       <div className='key-features'>
-        <h1 className='first-comp'>Presenting ReKuberate's Powerful Kubernetes Pod's Visualizer and Metrics Display</h1>
+        <h1 className='first-comp'>Presenting ReKuberate's Powerful Kubernetes Pod Visualizer and Metrics Display</h1>
         <div>
           <div className='Pods-description'>
-            An aesthetic GUI that allows the user to interact with their cluster and view their cluster health
-            real-time. Color variations allow the user to see current pods that active, pending or down
+            An aesthetic GUI allows users to interact with their cluster and view its health in real-time. 
+            Color variations allow the user to see which pods are active, pending, or down all with a quick glance.
           </div>
           <AnyChart instance={chart} />
         </div>
         <div>
           <img src={metrics} className='metrics' />
-          <div className='Pods-description'>
-            Utilizing the power of Grafana to display real-time graphs, illustrating the local health metrics of your
-            operating system while also tracking analytically the operating pods and containers
+          <div className='Graphs-description'>
+            Utilizing the power of Grafana to display real-time metrics, ReKuberate illustrates the health of your
+            operating system while also analytically tracking operating pods and nodes.
           </div>
         </div>
       </div>

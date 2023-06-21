@@ -45,9 +45,9 @@ export default function Intro() {
         </p>
         <p>Hovering over each node will display additional details.</p>
         <p>
-          The metrics page displays selected data information displayed in a
+          The metrics page displays selected data displayed in 
           graph form to give you a quick and easy overview of your cluster
-          health and computer usage.
+          health and resource usage.
         </p>
       </div>
     </>

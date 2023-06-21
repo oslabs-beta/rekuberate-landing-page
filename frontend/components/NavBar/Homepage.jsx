@@ -280,7 +280,7 @@ export default function HomePage() {
         </div>
         <div>
           <img src={metrics} className='metrics' />
-          <div className='Pods-description'>
+          <div className='Graphs-description'>
             Utilizing the power of Grafana to display real-time metrics, ReKuberate illustrates the health of your
             operating system while also analytically tracking operating pods and nodes.
           </div>

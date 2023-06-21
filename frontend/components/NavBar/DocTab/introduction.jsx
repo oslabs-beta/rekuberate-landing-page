@@ -21,13 +21,13 @@ export default function Intro() {
       <div id="install">
         <h1>____________________________________</h1>
         <h1 className="test">Installation</h1>
-        <p>Installation is incredible simple.</p>
         <p>1. Click on download</p>
         <p>2. Extract the zip file</p>
         <p>3. Open the extracted folder in VSCode</p>
         <p>4. Install dependencies with 'npm install'</p>
         <p>5. Start the application with 'npm run electron'</p>
-        <p>6. Enjoy!</p>
+        <p>6. Visit localhost:9000 and login using admin and prom-operator </p>
+        <p>7. Enjoy!</p>
       </div>
       <div id="about">
         <h1>____________________________________</h1>

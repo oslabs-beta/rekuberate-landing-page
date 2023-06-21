@@ -88,7 +88,8 @@ h1 {
   border-style: solid;
   border-radius: 20px;
   padding: 10px;
-  padding-bottom: 80px;
+  padding-top: 40px;
+  padding-bottom: 40px;
   box-shadow: 10px 5px 5px rgb(0, 255, 247);
   vertical-align: top;
   margin: 2vw 5vw;

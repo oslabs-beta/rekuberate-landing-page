@@ -31,11 +31,11 @@
   gap: 10px;
 }
 
-.fa-github::before {
+.github::before {
   color: inherit;
 }
 
-.fa-github {
+.github {
   font-size: 56px;
   padding-top: 5px;
   color: rgb(70, 70, 70);

@@ -273,8 +273,8 @@ export default function HomePage() {
         <h1 className='first-comp'>Presenting ReKuberate's Powerful Kubernetes Pod Visualizer and Metrics Display</h1>
         <div>
           <div className='Pods-description'>
-            An aesthetic GUI allows users to interact with their cluster and view its health in real-time. 
-            Color variations allow the user to see which pods are active, pending, or down all with a quick glance.
+            An aesthetic GUI allows users to interact with clusters and view pod health in real-time. 
+            Color variations show which pods are active, pending, or down all with a quick glance.
           </div>
           <AnyChart instance={chart} />
         </div>

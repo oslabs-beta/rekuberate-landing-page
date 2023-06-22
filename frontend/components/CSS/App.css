@@ -5,7 +5,7 @@ body {
   background-color: rgb(0, 0, 0);
   color: white;
   transition: 2s;
-  font-family: Inter, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 body[theme='dark'] {
@@ -57,19 +57,26 @@ html {
 }
 
 h1 {
-  font-family: Inter, sans-serif;
   margin-bottom: 10vh;
+  font-size: 64px;
+}
+
+.key-features {
+  background-color: rgba(255, 255, 255, 0.2);
+  padding-bottom: 60px;
 }
 
 .key-features h1 {
   margin-left: 5vw;
   margin-right: 5vw;
-  margin-bottom: 20vh;
+  margin-bottom: 10vh;
 }
 
 .first-comp {
   padding-top: 100px;
-  font-size: 60px;
+  font-size: 48px;
+  padding-left: 10vw;
+  padding-right: 10vw;
   animation: fadeIn 8s;
 }
 @keyframes fadeIn {
@@ -84,7 +91,7 @@ h1 {
 .Pods-description {
   width: 35vw;
   display: inline-block;
-  font-size: 30px;
+  font-size: 28px;
   border: 2px;
   border-style: solid;
   border-radius: 20px;
@@ -100,7 +107,7 @@ h1 {
 .Graphs-description {
   width: 35vw;
   display: inline-block;
-  font-size: 30px;
+  font-size: 28px;
   border: 2px;
   border-style: solid;
   border-radius: 20px;

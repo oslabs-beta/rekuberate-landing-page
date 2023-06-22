@@ -20,11 +20,12 @@ export default function Intro() {
         <h1 className='test'>Installation</h1>
         <p>1. Click on download</p>
         <p>2. Extract the zip file</p>
-        <p>3. Open the extracted folder in VSCode</p>
-        <p>4. Install dependencies with 'npm install'</p>
-        <p>5. Start the application with 'npm run electron'</p>
-        <p>6. Visit localhost:9000 and login using admin and prom-operator </p>
-        <p>7. Enjoy!</p>
+        <p>3. Make sure Helm is installed locally</p>
+        <p>4. Open the extracted folder in VSCode</p>
+        <p>5. Install dependencies with 'npm install'</p>
+        <p>6. Start the application with 'npm run electron'</p>
+        <p>7. Visit localhost:9000 and login using admin and prom-operator </p>
+        <p>8. Enjoy!</p>
       </div>
       <div id='about'>
         <h1>____________________________________</h1>

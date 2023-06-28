@@ -23,6 +23,14 @@ export default function NavBar() {
           </button>
         </div>
         <div className='nav_actions'>
+          <button
+            className='nav_links'
+            onClick={(e) => {
+              e.preventDefault();
+              window.location.href = 'http://rekub-env.eba-r3ujg2pf.us-east-1.elasticbeanstalk.com/';
+            }}>
+            Demo
+          </button>
           <button className='nav_links' onClick={() => navigate('/docs')}>
             Docs
           </button>
